@@ -1,0 +1,22 @@
+# Godot 4+ specific
+.godot/
+*.tmp
+export_presets.cfg
+
+# Imported resources
+*.import
+
+# Binaries / builds
+*.exe
+*.pck
+*.apk
+*.zip
+*.html
+*.wasm
+*.js
+*.apk.idsig
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
