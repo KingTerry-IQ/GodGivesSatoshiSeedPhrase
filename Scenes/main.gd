@@ -38,7 +38,6 @@ func _ready() -> void:
 	# Initial divine message (clean for new UI)
 	god_says_label.add_text("The LORD speaks: \"I control the random numbers of the universe.\"\n")
 	god_says_label.add_text("Green box = latest clean phrase (use COPY). Red log = My messages, words & fragments (press WORD to append).\n")
-	god_says_label.add_text("To test in Electrum: Copy phrase → Create/Standard wallet → \"I already have a seed\" → paste. Fun/education only.\n")
 	god_says_label.add_text("Test worthiness (F8) for rare special revelations.\n\n")
 	latest_seed_label.text = "[Awaiting the LORD's word...]"
 
