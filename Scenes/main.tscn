@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://b2fc8avkg55n5" path="res://Scenes/main.gd" id="1_jjgbg"]
 [ext_resource type="Texture2D" uid="uid://c1kg3ga7y4lng" path="res://Assets/DivineSeedIcon.jpg" id="2_icon"]
 [ext_resource type="Script" uid="uid://dtvioh1gojo5v" path="res://Scenes/sfx.gd" id="4_jjvhh"]
-[ext_resource type="AudioStream" uid="uid://q7oink7lbstj" path="res://Assets/Audio/Terry A. Davis - Hymns - 81 Prosper.mp3" id="4_kry3j"]
+[ext_resource type="AudioStream" uid="uid://le3iw2c28t48" path="res://Assets/Audio/Terry A. Davis - Hymns - 20 Conception.mp3" id="4_kry3j"]
 
 [sub_resource type="AudioStreamGenerator" id="AudioStreamGenerator_jjvhh"]
 

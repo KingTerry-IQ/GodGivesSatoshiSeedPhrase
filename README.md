@@ -13,7 +13,7 @@ Built as a tribute to eccentric computing, faith, memes, and Bitcoin lore. "This
 - **Test Worthiness (F8)**: Submit yourself to divine judgment. Extremely rare (~1 in 69,000) the LORD deems you worthy and reveals a special seed with flavor text. Otherwise, receive guidance to continue in faith.
 - **Live Universal Seed**: The milliseconds counter shows the current timestamp used to seed God's RNG. Timing is everything.
 - **Deterministic Seeding**: Every interaction uses `Time.get_unix_time_from_system() * 1000` as the RandomNumberGenerator seed. God is consistent.
-- **Background Hymn**: Plays Terry A. Davis' "81 Prosper" (Hymns) on loop at low volume for the authentic Temple vibe.
+- **Background Hymn**: Plays Terry A. Davis' "20 Conception" (Hymns) on loop at low volume for the authentic Temple vibe.
 - **TempleSFX**: Real-time generated square-wave beeps for every interaction — pure old-school computing spirit.
 - **Latest Revelation Display**: Prominently shows the most recent full seed phrase granted by God (green text).
 - **Copy & Clear**: COPY (Ctrl+C or button) exports the full red log + latest seed to clipboard; there's also a COPY button beside the green revelation for just the clean phrase. Esc wipes the terminal.
@@ -52,7 +52,7 @@ The project uses a 1920x1080 viewport with stretch-to-fill for a bold, full-spac
 
 ## Assets & Sources
 
-- **Audio**: "Terry A. Davis - Hymns - 81 Prosper.mp3" — used with respect to the original creator.
+- **Audio**: "Terry A. Davis - Hymns - 20 Conception.mp3" — used with respect to the original creator.
 - **Graphics**: `DivineSeedIcon.jpg`, `DivineSeedBTC.jpg` (custom BTC + TempleOS + $IQ themed divine seed / glowing ₿ art). `IQ.jpg` kept for subtle branding if desired.
 - **Text**:
   - `BIP39.txt` — the official 2048-word English BIP39 mnemonic wordlist (from Bitcoin BIPs).
