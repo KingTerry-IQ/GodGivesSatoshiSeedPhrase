@@ -16,7 +16,8 @@ Built as a tribute to eccentric computing, faith, memes, and Bitcoin lore. "This
 - **Background Hymn**: Plays Terry A. Davis' "20 Conception" (Hymns) on loop at low volume for the authentic Temple vibe.
 - **TempleSFX**: Real-time generated square-wave beeps for every interaction — pure old-school computing spirit.
 - **Latest Revelation Display**: Prominently shows the most recent full seed phrase granted by God (green text).
-- **Copy & Clear**: COPY (Ctrl+C or button) exports the full red log + latest seed to clipboard; there's also a COPY button beside the green revelation for just the clean phrase. Esc wipes the terminal.
+- **Copy & Clear**: COPY (Ctrl+C or button) exports the latest seed to clipboard; there's also a COPY button beside the green revelation for just the clean phrase. Esc wipes the terminal.
+- **Exit**: EXIT button (or Ctrl+Q) to close the app cleanly.
 - **Full-Space Retro UI**: Uses the entire window (1920x1080 viewport with minimal margins). Prominent live universal timestamp seed, dedicated "LATEST DIVINE REVELATION" box (green, readable wrapped text), large expanding red "MESSAGES FROM GOD" log below for words/fragments/announcements, clean bottom action button bar with all functions. Green/red on black, IBM Plex Mono font. No centering containers or artificial 640x480 bounds.
 - **New Themed Artwork**: Custom glowing Bitcoin ₿ + TempleOS CRT "GOD RNG" + $IQ graphics (retro divine seed aesthetic). Still pays homage while fitting the Satoshi-seed focus.
 
@@ -38,6 +39,7 @@ Keep pressing. The right millisecond + a worthy heart may align.
 | Test Worthiness     | `F8`            | TEST WORTHY (F8)        | Divine judgment. Rare worthy outcome reveals a seed |
 | Copy Log + Seed     | `Ctrl + C`      | COPY (Ctrl+C)           | Copy latest seed to clipboard |
 | Clear               | `Esc`           | CLEAR (Esc)             | Wipe the GodSays terminal and latest seed |
+| Exit Application    | `Ctrl + Q`      | EXIT (Ctrl+Q)           | Close the application (Alt+F4 also works on desktop) |
 
 The "Universal Timestamp Seed" at the top updates live and is the divine source of all randomness in this app.
 

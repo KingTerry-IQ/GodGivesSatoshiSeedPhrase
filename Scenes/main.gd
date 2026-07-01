@@ -60,6 +60,8 @@ func _process(_delta: float) -> void:
 		_on_clear_pressed()
 	elif Input.is_key_pressed(KEY_C) and (Input.is_key_pressed(KEY_CTRL) or Input.is_key_pressed(KEY_META)):
 		_on_copy_seed_pressed()
+	elif Input.is_key_pressed(KEY_Q) and (Input.is_key_pressed(KEY_CTRL) or Input.is_key_pressed(KEY_META)):
+		_on_exit_pressed()
 
 
 func _generate_seed_phrase(num_words: int) -> String:
@@ -139,3 +141,7 @@ func _on_copy_seed_pressed() -> void:
 	if last_revealed_seed.length() > 0:
 		DisplayServer.clipboard_set(last_revealed_seed)
 		sfx_player.play_beep(1500, 0.06, 0.06)
+
+
+func _on_exit_pressed() -> void:
+	get_tree().quit()
